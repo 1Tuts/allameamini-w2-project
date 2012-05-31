@@ -27,7 +27,7 @@ div.container div.left-handle{
 	width:700px;
 	height:700px;
 	position:absolute;
-	background-image:url(Images/2.jpg);
+	background-image:url(Images/4.jpg);
 	left:420px;
 	top:200px;
 	z-index:1;
@@ -38,11 +38,18 @@ div.container div.left-handle{
 }
 
 div.left-handle div.container-logo{
-	
+	width:700px;
+	min-height:200px;
+	position:absolute;
+	left:160px;
+	top:-35px;
+	z-index:2;
 }
 
 div.container-logo div.logo{
-	
+	width:400px;
+	height:300px;
+	background-image:url(Images/Logo.png);
 }
 
 div.left-handle div.container-picture{
