@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	transition:all 1s;
+	-moz-transition:all 1s;
+	-webkit-transition:all 1s;
+	-o-transition:all 1s;
+	-ms-transition:all 1s;
+	}
+
+div.container{
+	width:1200px;
+	min-height:950px;
+	outline:1px dashed red;
+	padding-top:1px;
+	background-image:url(Images/1.jpg);
+	background-repeat:repeat;
+	position:relative;
+
+}
+
+div.left-handle{
+	position:absolute
+	width:500px;
+	height:500px;
+	outline:1px dashed blue;
+	left:200;
+	
+}
+
+div.left-handle div.container-logo{
+	
+}
+
+div.container-logo div.logo{
+	
+}
+
+div.left-handle div.container-picture{
+	
+}
+
+div.container-picture div.vertical-picture{
+	
+}
+
+div.left-handle div.container-menu{
+	
+}
+
+div.container-menu div.menu{
+	
+}
+
+div.right-handle{
+	position:absolute;
+	width:500px;
+	height:500px;
+	outline:1px dashed blue;
+	left:200;
+	top:100;
+}
+
+div.right-handle div.content1{
+	
+}
+
