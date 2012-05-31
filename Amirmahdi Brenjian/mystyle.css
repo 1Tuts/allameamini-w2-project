@@ -14,7 +14,7 @@ body{
 	min-height:950px;
 	padding-top:1px;
 	background-image:url(Images/bg.jpg);
-	
+	background-repeat:repeat;
 }
 
 div.container{
@@ -27,10 +27,13 @@ div.container div.left-handle{
 	width:700px;
 	height:700px;
 	position:absolute;
-	background-color:#000099;
+	background-image:url(Images/2.jpg);
 	left:420px;
 	top:200px;
 	z-index:1;
+	box-shadow: 14px 14px 3px #111;
+	-webkit-box-shadow: 14px 14px 3px #111;
+	-ms-box-shadow: 14px 14px 3px #111;
 	
 }
 
@@ -62,10 +65,14 @@ div.right-handle{
 	width:700px;
 	height:700px;
 	position:absolute;
-	background-color:#000;
-	left:1120px;
+	background-image:url(Images/right-bg1.jpg);
+	background-repeat:no-repeat;
+	left:1125px;
 	top:200px;
 	z-index:1;
+	box-shadow: 12px 14px 3px #111;
+	-webkit-box-shadow: 12px 14px 3px #111;;
+	-ms-box-shadow: 12px 14px 3px #111;
 }
 
 div.right-handle div.content1{
