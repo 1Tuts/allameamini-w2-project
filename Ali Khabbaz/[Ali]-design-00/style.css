@@ -1,13 +1,20 @@
+*{
+	transition:all 700ms;
+	-moz-transition:all 700ms;
+	-webkit-transition:all 700ms;
+	-o-transition:all 700ms;
+	-ms-transition:all 700ms;
+	}
 body{
 	margin:0;
 	padding:0;
 	background-color:#333s;
-	background-image:url(images/12412.jpg);
+	background-image:url(images/bg.jpg);
 		
 }
 
 div{
-	outline:1px dashed red;
+outline:1px dashed red;
 }
 
 div.main{
@@ -18,8 +25,6 @@ div.main{
 	top:50%;
 	margin: -196px 0 0 -512px;
 	background-image:url(images/dropshadow.png);
-	
-	
 	padding-top:1px;
 }
 .main div.left{
@@ -32,12 +37,15 @@ div.main{
 .main div.right{
 	margin-left:510px;
 	height:357px;
-	
+	width:480px;
+	background-image:url(images/1.jpg);
+	background-repeat:no-repeat;
 	margin-right:30px;
 }
 .main .left .top{
 	width:inherit;
 	min-height:113px;
+	background-image:url(images/left2.jpg);
 	
 }
 .main .left .center{
@@ -66,4 +74,51 @@ div.enter{
 	height:100px;
 	margin:250px auto;	
 	background-color:red;
+}
+div.bottom div.menu{
+	width:inherit;
+	min-height:113px;
+	position:absolute;
+	top:280px;
+	
+}
+div.menu ul{
+	list-style-type:none;
+}
+div.menu li{
+	width:60px;
+	height:100px;
+	float:left;
+	margin-left:20px;
+	margin-top:5px;
+	display:block;
+}
+div.menu a{
+	text-decoration:none;
+	color:#999;
+	font-size:13px;
+	white-space:nowrap;
+}
+div.menu li:hover a{
+	text-decoration:none;
+	color:#FFF;
+	font-size:13px;
+	white-space:nowrap;
+}
+div.menu li.l1 a{
+	text-decoration:none;
+	color:#CCC;
+	font-size:13px;
+	white-space:nowrap;
+	font-weight:bold;
+}
+
+div.logo{
+	width:140px;
+	height:105px;
+	background-image:url(images/Logo-main.png);
+	background-repeat:no-repeat;
+	position:absolute;
+	left:200px;
+	top:6px;	
 }
