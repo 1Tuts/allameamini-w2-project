@@ -7,7 +7,7 @@ We try to introduce allameh amini to the people because he is one of the best au
 
 **Advanced information:**
 
-Domains: [allame-amini.ir](http://allame-amini.ir) and [allame-amini.ir](http://allame-amini.com)
+Domains: [allame-amini.ir](http://allame-amini.ir) and [allame-amini.com](http://allame-amini.com)
 
 Members: [Ali Khabbaz](http://github.com/ali-khabbaz), [Amirmahdi Brenjian](http://github.com/brenjian),[Majid Soroosh](http://github.com/majidsr )
 
