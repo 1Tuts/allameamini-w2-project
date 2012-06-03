@@ -1,6 +1,8 @@
 body{
 	margin:0;
 	padding:0;
+	background-color:#333s;
+	background-image:url(images/12412.jpg);
 		
 }
 
@@ -15,9 +17,9 @@ div.main{
 	left:50%;
 	top:50%;
 	margin: -196px 0 0 -512px;
-	
-	
 	background-image:url(images/dropshadow.png);
+	
+	
 	padding-top:1px;
 }
 .main div.left{
@@ -25,6 +27,7 @@ div.main{
 	width:480px;
 	height:357px;
 	margin-left:28px;
+	background-image:url(images/left.jpg);
 }
 .main div.right{
 	margin-left:510px;
@@ -34,15 +37,18 @@ div.main{
 }
 .main .left .top{
 	width:inherit;
-	min-height:80px;
+	min-height:113px;
+	
 }
 .main .left .center{
 	width:inherit;
-	min-height:197px;
+	min-height:133px;
+	background-image:url(images/center.png);
 }
 .main .left .bottom{
 	width:inherit;
-	min-height:80px;
+	min-height:113px;
+	
 }
 div.up{
 	background-color:#CCCCCC;
