@@ -1,0 +1,34 @@
+window.onload=function(){
+
+	$('.l1').click(function(){
+		$('.train').animate({
+			'left':'0'
+		},500)
+	});
+	$('.l2').click(function(){
+		$('.train').animate({
+			'left':'-480px'
+		},500)
+	});
+	$('.l3').click(function(){
+		$('.train').animate({
+			'left':'-960px'
+		},500)
+	});
+	$('.l4').click(function(){
+		$('.train').animate({
+			'left':'-1440px'
+		},500)
+	});
+	$('.l5').click(function(){
+		$('.train').animate({
+			'left':'-1920px'
+		},500)
+	});
+	$('.l6').click(function(){
+		$('.train').animate({
+			'left':'-2400px'
+		},500)
+	});
+
+}

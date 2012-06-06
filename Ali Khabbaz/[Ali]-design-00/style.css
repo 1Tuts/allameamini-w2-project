@@ -1,20 +1,13 @@
-*{
-	transition:all 700ms;
-	-moz-transition:all 700ms;
-	-webkit-transition:all 700ms;
-	-o-transition:all 700ms;
-	-ms-transition:all 700ms;
-	}
 body{
 	margin:0;
 	padding:0;
 	background-color:#333s;
-	background-image:url(images/bg.jpg);
+	background-image:url(images/12412.jpg);
 		
 }
 
 div{
-outline:1px dashed red;
+	
 }
 
 div.main{
@@ -25,6 +18,8 @@ div.main{
 	top:50%;
 	margin: -196px 0 0 -512px;
 	background-image:url(images/dropshadow.png);
+	
+	
 	padding-top:1px;
 }
 .main div.left{
@@ -41,12 +36,18 @@ div.main{
 	background-image:url(images/1.jpg);
 	background-repeat:no-repeat;
 	margin-right:30px;
+	padding-top:1px;
+	overflow:hidden;
+	position:relative;
 }
 .main .left .top{
 	width:inherit;
 	min-height:113px;
-	background-image:url(images/left2.jpg);
-	
+	font-family:IranNastaliq;
+	font-size:88px;
+	color:white;
+	text-align:center;
+	font-weight:100;
 }
 .main .left .center{
 	width:inherit;
@@ -75,6 +76,9 @@ div.enter{
 	margin:250px auto;	
 	background-color:red;
 }
+
+
+
 div.bottom div.menu{
 	width:inherit;
 	min-height:113px;
@@ -112,13 +116,31 @@ div.menu li.l1 a{
 	white-space:nowrap;
 	font-weight:bold;
 }
-
-div.logo{
-	width:140px;
-	height:105px;
-	background-image:url(images/Logo-main.png);
-	background-repeat:no-repeat;
+div.right .train{
+	height:inherit;
 	position:absolute;
-	left:200px;
-	top:6px;	
+	left:0;
+	top:0;
 }
+
+div.right div.train > div{
+	position:absolute;
+	width:480px;
+	height:inherit;
+}
+div.train .train2{
+	left:480px;
+}
+div.train .train3{
+	left:960px;
+}
+div.train .train4{
+	left:1440px;
+}
+div.train .train5{
+	left:1920px;
+}
+div.train .train6{
+	left:2400px;
+}
+
