@@ -1,4 +1,4 @@
-$(function(){
+window.onload=function(){
 
 	$('.l1').click(function(){
 		$('.train').animate({
@@ -31,4 +31,4 @@ $(function(){
 		},500)
 	});
 
-});
+}
