@@ -1,0 +1,127 @@
+*{
+	transition:all 700ms;
+	-moz-transition:all 700ms;
+	-webkit-transition:all 700ms;
+	-o-transition:all 700ms;
+	-ms-transition:all 700ms;
+}
+body{
+	margin:0;
+	padding:0;
+	background-color:#333s;
+	background-image:url(images/bg.jpg);
+		
+}
+
+@font-face{
+	font-family: iran;
+	src: url('iran.ttf');
+}
+
+div.main{
+	width:1016px;
+	height:391px;
+	position:absolute;
+	left:50%;
+	top:50%;
+	margin: -196px 0 0 -512px;
+	background-image:url(images/dropshadow.png);
+	padding-top:1px;
+}
+.main div.left{
+	float:left;
+	width:480px;
+	height:357px;
+	margin-left:28px;
+	background-image:url(images/left.jpg);
+}
+.main div.right{
+	margin-left:510px;
+	height:357px;
+	width:480px;
+	background-image:url(images/1.jpg);
+	background-repeat:no-repeat;
+	margin-right:30px;
+}
+.main .left .top{
+	width:inherit;
+	min-height:113px;
+	background-image:url(images/left2.jpg);
+	
+}
+.main .left .center{
+	width:inherit;
+	min-height:133px;
+	background-image:url(images/center.png);
+}
+.main .left .bottom{
+	width:inherit;
+	min-height:113px;
+	
+}
+div.up{
+	background-color:#CCCCCC;
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	z-index:3;
+	width:1280px;
+	height:800px;
+}
+div.enter{	
+	width:100px;
+	height:100px;
+	margin:250px auto;	
+	background-color:red;
+}
+div.bottom div.menu{
+	width:inherit;
+	min-height:113px;
+	position:absolute;
+	top:280px;
+	left:40px;
+	
+}
+div.menu ul{
+	list-style-type:none;
+}
+div.menu li{
+	width:60px;
+	height:100px;
+	float:left;
+	margin-left:20px;
+	margin-top:5px;
+	display:block;
+}
+div.menu a{
+	text-decoration:none;
+	color:#999;
+	font-size:23px;
+	white-space:nowrap;
+	font-family:iran;
+}
+div.menu li:hover a{
+	text-decoration:none;
+	color:#FFF;
+	white-space:nowrap;
+}
+div.menu li.l1 a{
+	text-decoration:none;
+	color:#CCC;
+	white-space:nowrap;
+	font-weight:bold;
+}
+
+
+div.logo{
+	width:140px;
+	height:105px;
+	background-image:url(images/Logo-main.png);
+	background-repeat:no-repeat;
+	position:absolute;
+	left:200px;
+	top:6px;	
+}
+
