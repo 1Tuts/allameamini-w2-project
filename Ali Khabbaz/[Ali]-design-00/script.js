@@ -1,4 +1,8 @@
 window.onload=function(){
+	var x=0;
+	
+	
+	
 
 	$('.l1').click(function(){
 		$('.train').animate({
@@ -30,5 +34,33 @@ window.onload=function(){
 			'left':'-2400px'
 		},500)
 	});
+	
+	$('.down').click(function(){
+		$('.up').animate({'opacity':1},100);
+		if(x !=-840) {
+			x=x-280;			
+		}
+		else {
+			$(this).animate({'opacity':0.5},100);
+		}
+		$('.scroll').animate({
+			'top':x+'px'
+		},500)
+		
+		
+			
+	});
+	
+	$('.up').click(function(){
+		if(x !=0) x=x+280;
+		else {
+			$(this).animate({'opacity':0.5},100);
+		}
+		$('.down').animate({'opacity':1},100);
+		$('.scroll').animate({
+			'top':x+'px'
+		},500)
+	});
+	
 
 }
