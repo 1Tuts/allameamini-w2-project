@@ -7,11 +7,11 @@ body{
 }
 
 div{
-	
+	outline:1px dashed red;
 }
 
 div.main{
-	width:1016px;
+	width:1020px;
 	height:391px;
 	position:absolute;
 	left:50%;
