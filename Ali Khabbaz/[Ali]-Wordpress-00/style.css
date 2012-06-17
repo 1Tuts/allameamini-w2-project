@@ -1,0 +1,185 @@
+body{
+	margin:0;
+	padding:0;
+	background-color:#333s;
+	background-image:url(images/12412.jpg);
+		
+}
+
+div{
+	outline:1px dashed red;
+}
+
+div.main{
+	width:1020px;
+	height:391px;
+	position:absolute;
+	left:0;
+	top:0;
+	right:0;
+	bottom:0;
+	margin: auto;
+	background-image:url(images/dropshadow.png);
+	
+	
+	padding-top:1px;
+}
+.main div.left{
+	float:left;
+	width:480px;
+	height:357px;
+	margin-left:28px;
+	background-image:url(images/left.jpg);
+}
+.main div.right{
+	height:357px;
+	width:480px;
+	background-image:url(images/1.jpg);
+	background-repeat:no-repeat;
+	margin-right:30px;
+	padding-top:1px;
+	overflow:hidden;
+	position:relative;
+}
+.main .left .top{
+	width:inherit;
+	min-height:113px;
+	font-family:IranNastaliq;
+	font-size:88px;
+	color:white;
+	text-align:center;
+	font-weight:100;
+}
+.main .left .center{
+	width:inherit;
+	min-height:133px;
+	background-image:url(images/center.png);
+}
+.main .left .bottom{
+	width:inherit;
+	min-height:113px;
+	
+}
+
+div.enter{	
+	width:100px;
+	height:100px;
+	margin:250px auto;	
+	background-color:red;
+}
+
+
+
+div.bottom div.menu{
+	width:inherit;
+	min-height:113px;
+	position:absolute;
+	top:280px;
+	
+}
+div.menu ul{
+	list-style-type:none;
+}
+div.menu li{
+	width:60px;
+	height:100px;
+	float:left;
+	margin-left:20px;
+	margin-top:5px;
+	display:block;
+}
+div.menu a{
+	text-decoration:none;
+	color:#999;
+	font-size:13px;
+	white-space:nowrap;
+}
+div.menu li:hover a{
+	text-decoration:none;
+	color:#FFF;
+	font-size:13px;
+	white-space:nowrap;
+}
+div.menu li.l1 a{
+	text-decoration:none;
+	color:#CCC;
+	font-size:13px;
+	white-space:nowrap;
+	font-weight:bold;
+}
+div.right .train{
+	height:inherit;
+	position:absolute;
+	left:0;
+	top:0;
+}
+
+div.right div.train > div{
+	position:absolute;
+	width:480px;
+	height:inherit;
+}
+div.train .train2{
+	left:480px;
+}
+div.train .train3{
+	left:960px;
+}
+div.train .train4{
+	left:1440px;
+}
+div.train .train5{
+	left:1920px;
+}
+div.train .train6{
+	left:2400px;
+}
+
+div.arrow{
+	float:left;
+	width:14px;
+	height:280px;
+	margin-left:50px;
+	margin-top:40px;
+}
+div.arrow .up{
+	background-image:url(images/up.png);
+	width:inherit;
+	height:14px;	
+}
+div.arrow .down{
+	background-image:url(images/down.png);
+	width:inherit;
+	height:14px;
+	margin-top:252px;		
+}
+
+div.topic{
+	width:350px;
+	height:280px;
+	margin-left:90px;
+	margin-top:40px;
+	position:relative;
+	overflow:hidden;
+}
+
+div.train2 .scroll{
+	position:absolute;
+	left:0;
+	top:0;
+	width:inherit;
+	height:1120px;
+}
+div.scroll > div{
+	width:inherit;
+	height:280px;
+	color:#555;
+	font-family:IranNastaliq;
+	padding-top:1px;
+}
+div.train2 .scroll > div > div{
+	font-size:50px;
+	margin:100px auto;
+	text-align:center;		
+}
+
