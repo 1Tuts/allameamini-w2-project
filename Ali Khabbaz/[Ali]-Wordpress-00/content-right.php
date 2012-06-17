@@ -21,7 +21,7 @@
 				'child_of' => $post->ID,
 				'depth'    => 1
 			));}
-			else{ if($post->ID != 39){
+			else{ if(true){ //main page has no subpage
 				//echo "has no children !";
 				//$post->ID=$post->post_parent;
 				
