@@ -14,9 +14,11 @@ div.main{
 	width:1020px;
 	height:391px;
 	position:absolute;
-	left:50%;
-	top:50%;
-	margin: -196px 0 0 -512px;
+	left:0;
+	top:0;
+	right:0;
+	bottom:0;
+	margin: auto;
 	background-image:url(images/dropshadow.png);
 	
 	
