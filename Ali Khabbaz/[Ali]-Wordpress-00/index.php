@@ -13,6 +13,9 @@
 			<?php 	get_template_part('content', 'right'); 	?>
 		</div>
 	</div>
+	<div class="matlab">
+		<?php 	get_template_part('content', 'main'); 	?>
+	</div>
 
 
 <?php    get_footer(); ?>
