@@ -39,7 +39,7 @@ div.main{
 	margin-right:30px;
 	padding-top:1px;
 	overflow:hidden;
-	position:relative;
+	position:relative;	
 }
 .main .left .top{
 	width:inherit;
@@ -107,79 +107,3 @@ div.menu li.l1 a{
 	white-space:nowrap;
 	font-weight:bold;
 }
-div.right .train{
-	height:inherit;
-	position:absolute;
-	left:0;
-	top:0;
-}
-
-div.right div.train > div{
-	position:absolute;
-	width:480px;
-	height:inherit;
-}
-div.train .train2{
-	left:480px;
-}
-div.train .train3{
-	left:960px;
-}
-div.train .train4{
-	left:1440px;
-}
-div.train .train5{
-	left:1920px;
-}
-div.train .train6{
-	left:2400px;
-}
-
-div.arrow{
-	float:left;
-	width:14px;
-	height:280px;
-	margin-left:50px;
-	margin-top:40px;
-}
-div.arrow .up{
-	background-image:url(images/up.png);
-	width:inherit;
-	height:14px;	
-}
-div.arrow .down{
-	background-image:url(images/down.png);
-	width:inherit;
-	height:14px;
-	margin-top:252px;		
-}
-
-div.topic{
-	width:350px;
-	height:280px;
-	margin-left:90px;
-	margin-top:40px;
-	position:relative;
-	overflow:hidden;
-}
-
-div.train2 .scroll{
-	position:absolute;
-	left:0;
-	top:0;
-	width:inherit;
-	height:1120px;
-}
-div.scroll > div{
-	width:inherit;
-	height:280px;
-	color:#555;
-	font-family:IranNastaliq;
-	padding-top:1px;
-}
-div.train2 .scroll > div > div{
-	font-size:50px;
-	margin:100px auto;
-	text-align:center;		
-}
-
