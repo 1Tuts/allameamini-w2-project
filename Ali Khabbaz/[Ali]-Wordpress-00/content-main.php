@@ -4,9 +4,15 @@
 			the_post();
 ?>
 <article class='post'>
-	<h2><?php the_title(); ?></h2>
+	<b><?php the_title(); ?></b>
 	<p>
-		<?php the_content(); ?>
+		<?php echo $post->post_content;
+			echo"<!--";
+			echo"<pre>";
+				print_r($post);
+			echo"</pre>";
+			echo "-->";
+		?>
 	</p>
 </article>
 <?php
