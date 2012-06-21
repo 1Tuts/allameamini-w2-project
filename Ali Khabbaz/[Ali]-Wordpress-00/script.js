@@ -5,7 +5,7 @@ window.onload=function(){
 		//$('.matlab').css('display','none');
 		document.getElementsByClassName('matlab').item(0).style.backgroundColor='red';
 	};
-	var y=$('.scroll').height()-200;
+	var y=$('.scroll').height()-350;
 	y=-1*y;
 	
 	
