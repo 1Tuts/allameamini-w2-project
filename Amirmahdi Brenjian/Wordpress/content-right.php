@@ -6,7 +6,8 @@
 				print_r($post);
 			echo"</pre>";
 			echo "-->";
-		
+		//echo get_option('page_on_front');
+		//echo get_option('page_for_posts');
 		
 		
 		function has_children($post_id) {
