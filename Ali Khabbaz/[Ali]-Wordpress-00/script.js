@@ -5,10 +5,47 @@ window.onload=function(){
 		//$('.matlab').css('display','none');
 		document.getElementsByClassName('matlab').item(0).style.backgroundColor='red';
 	};
+	var y=$('.scroll').height()-200;
+	y=-1*y;
 	
-	if ($('.scroll').height() > 280){
-		
+	
+	
+	if ($('.scroll').height() <= 280){
+		$('.arrow').css('display','none');
 	}
+	
+	
+	if(x==0){
+			$('.uparr').animate({'opacity':0},100);
+	}
+	
+	$('.uparr').click(function(){
+		$('.botarr').animate({'opacity':1},100);
+		x=x+250;
+		$('.scroll').animate({"top" : x+"px"}, "slow");
+		if(x==0){
+			$('.uparr').animate({'opacity':0},100);
+		}	
+		
+	});
+	
+	
+	
+	
+		
+	
+	$('.botarr').click(function(){
+		$('.uparr').animate({'opacity':1},100);
+		x=x-250;
+		$('.scroll').animate({"top": x+"px"}, "slow");	
+		
+		if(x==y){
+			$('.botarr').animate({'opacity':0},100);
+			
+		}	
+	});
+	
+	
 	
 	
 	
@@ -76,7 +113,7 @@ window.onload=function(){
 	}
 	
 	
-	
+	/*
 	if(x==-840) {
 			$('.down').animate({'opacity':0.5},100);
 	}
@@ -108,5 +145,5 @@ window.onload=function(){
 		},500)
 	});
 	
-
+*/
 }
