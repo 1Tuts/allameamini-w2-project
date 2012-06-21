@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>Untitled Document</title>
+<title>علامه امینی</title>
 
 
 <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url') ?>/reset.css" />
