@@ -1,6 +1,19 @@
 window.onload=function(){
 	var x=0;
 	
+	var disp=function(){
+		//$('.matlab').css('display','none');
+		document.getElementsByClassName('matlab').item(0).style.backgroundColor='red';
+	};
+	
+	if ($('.scroll').height() > 280){
+		
+	}
+	
+	
+	
+	
+	
 	
 	
 
