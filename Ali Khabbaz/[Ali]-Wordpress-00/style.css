@@ -41,6 +41,41 @@ div.matlab{
 	margin-bottom:auto;	
 	background-color:#CCC;
 	text-align:right;
+	padding:20px;
+}
+
+div.matlab .content{
+	margin-left:50px;	
+	overflow:hidden;
+	height:240px;
+	position:relative;
+}
+div.scroll2{
+	width:inherit;
+	min-height:inherit;
+	position:absolute;
+	left:0;
+	top:0;
+	width:950px;
+}
+
+div.matlab .arrow2{
+	float:left;
+	width:14px;
+	margin-left:5px;
+	margin-top:5px;
+	height:inherit;
+}
+
+div.arrow2 .uparr2{
+	background-image:url(images/up.png);
+	width:14px;
+	height:14px;
+}
+div.arrow2 .botarr2{
+	background-image:url(images/down.png);
+	width:14px;
+	height:14px;	
 }
 .main div.left{
 	float:left;
