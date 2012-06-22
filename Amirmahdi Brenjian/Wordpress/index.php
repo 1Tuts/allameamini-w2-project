@@ -6,7 +6,9 @@
 			<div class="top">
             	<div class="logo"></div>
             </div>
-			<div class="center"></div>
+			<div class="center">
+            	<div class="autoimage"></div>
+            </div>
 			<div class="bottom">
 				<?php	get_template_part('menu');   ?>
 			</div>

@@ -1,6 +1,7 @@
 window.onload=function(){
 	var x=0;
 	var z=0;
+	var i=0;
 	
 	var disp=function(){
 		//$('.matlab').css('display','none');
@@ -60,10 +61,17 @@ window.onload=function(){
 		
 		
 	});
+
+	function rnd(a,b){
+		return Math.floor(Math.random()*(b-a+1))+a;	
+	}
+	var image= function(){
+		document.getElementsByClassName('autoimage').item(0).style.backgroundPosition=rnd(0,433),rnd(0,133);
+	};
 	
+	setInterval(image,2000);
 	
-	
-	
+		
 
 	/*$('.l1').click(function(){
 		$('.train').animate({
