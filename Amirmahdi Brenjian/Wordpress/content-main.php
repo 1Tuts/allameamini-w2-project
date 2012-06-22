@@ -4,6 +4,7 @@
 			the_post();
 ?>
 <article class='post'>
+	
 	<h1><?php the_title(); ?></h1>
 	<p>
 		<?php echo $post->post_content;

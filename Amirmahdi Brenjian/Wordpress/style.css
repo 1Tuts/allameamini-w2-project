@@ -128,7 +128,7 @@ div.enter{
 
 
 div.bottom div.menu{
-	width:inherit;
+	width:1000px;
 	min-height:113px;
 	position:absolute;
 	top:280px;
@@ -141,7 +141,7 @@ div.menu li{
 	width:60px;
 	height:100px;
 	float:left;
-	margin-left:8px;
+	margin-left:11px;
 	margin-top:5px;
 	display:block;
 }
@@ -162,7 +162,7 @@ div.menu li:hover a{
 div.menu li.l1 a{
 	text-decoration:none;
 	color:#CCC;
-	font-size:23px;
+	font-size:28px;
 	white-space:nowrap;
 	font-weight:bold;
 }
@@ -215,7 +215,110 @@ div.arrow .uparr{
 div.arrow .botarr{
 	width:inherit;
 	height:14px;
-	background-image:url(images/up.png);
+	background-image:url(images/down.png);
 	margin-top:252px;
 	
 }
+div.container{
+	width:350px;/*350px;1060px;*/
+	height:280px;/*280px;600px;*/
+	margin:0 auto;
+/*	outline:2px dashed red;*/
+}
+
+div.formstyle{
+	width:350px;/*370px;*/
+	height:280px;/*270px;*/
+/*	margin-top:120px;
+	margin-left:430px;*/
+	position:relative;
+	margin-left:-4px;
+}
+
+div.formstyle input{
+	display:block;
+	margin:5px;
+	padding:3px 5px;
+	direction:rtl;
+}
+
+div.formstyle input[type=text]{
+	color:#666;
+	width:330px;
+	font-variant:small-caps;
+	font-size:14px;
+	-webkit-border-radius:0 10px 0 10px;
+	box-shadow:0px 0px 7px #9999FF;
+	-webkit-border-radius:0 10px 0 10px;
+	-webkit-box-shadow:0px 0px 7px #9999FF;
+	-moz-border-radius:0 10px 0 10px;
+	-moz-box-shadow:0px 0px 7px #9999FF;
+	-ms-border-radius:0 10px 0 10px;
+	-ms-box-shadow:0px 0px 7px #9999FF;
+	-o-border-radius:0 10px 0 10px;
+	-o-box-shadow:0px 0px 7px #9999FF;
+	background-color:#CCC;
+	border-color:#f4f4f4;
+}
+
+div.formstyle input[type=text].ok{
+	background-color:#999;
+	border-color:#c7c7c7;
+}
+
+div.formstyle input[type=text].nok{
+	background-color:#FFECEC;
+	border:1px dashed #FF4848;
+}
+
+div.formstyle textarea{
+	width:340px;
+	min-height:170px;
+	color:#666;
+	margin:5px;
+	font-size:16px;
+	font-family:Arial, Helvetica, sans-serif;
+	border-radius:0 20px 0 20px;
+	box-shadow:0px 0px 7px #9999FF;
+	-webkit-border-radius:0 20px 0 20px;
+	-webkit-box-shadow:0px 0px 7px #9999FF;
+	-moz-border-radius:0 20px 0 20px;
+	-moz-box-shadow:0px 0px 7px #9999FF;
+	-ms-border-radius:0 20px 0 20px;
+	-ms-box-shadow:0px 0px 7px #9999FF;
+	-o-border-radius:0 20px 0 20px;
+	-o-box-shadow:0px 0px 7px #9999FF;
+	background-color:#CCC;
+	border-color:#f4f4f4;
+	direction:rtl;
+}
+
+div.formstyle textarea.ok{
+	background-color:#999;
+	border-color:#c7c7c7;
+}
+
+div.formstyle textarea.nok{
+	background-color:#FFECEC;
+	border:1px dashed #FF4848;
+}
+
+div.button{
+	position:absolute;
+	bottom:5px;
+	right:0px;
+	/*top:235px;
+	left:420px;*/
+	width:90px;
+	height:70px;
+}
+
+div.formstyle input[type=submit]{
+	background:url(img/submit.png);
+	height:68px;
+	width:89px;
+	border: 0;
+	margin-top:10px;
+	cursor:pointer;
+}
+

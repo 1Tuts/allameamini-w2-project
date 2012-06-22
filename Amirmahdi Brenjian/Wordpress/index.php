@@ -5,8 +5,6 @@
 		<div class="left">
 			<div class="top">
             	<div class="logo"></div>
-                <div class="back"></div>
-                <div class="next"></div>
             </div>
 			<div class="center"></div>
 			<div class="bottom">
@@ -26,6 +24,16 @@
 		</div>
 	</div>
 	<div class="matlab">
-		<?php 	get_template_part('content', 'main'); 	?>
+		<div class="arrow2">
+			<div class="uparr2"></div>
+			<div class="botarr2"></div>
+		</div>
+		<div class="content">
+			<div class="scroll2">
+				<?php 	get_template_part('content', 'main'); 	?>
+			</div>
+		</div>
 	</div>
+
+
 <?php    get_footer(); ?>

@@ -20,8 +20,8 @@
 			get_template_part('home');
 			echo "<script type='text/javascript;>
 			window.onload=function(){
-			$('.matlab').css('display','none');
-			
+				$('.matlab').css('display','none');
+				$('.main').css('margin','auto');			
 			}
 			</script>";
 			
@@ -30,8 +30,8 @@
 			get_template_part('contact');
 			echo "<script type='text/javascript;>
 			window.onload=function(){
-			$('.matlab').css('display','none');
-			
+				$('.matlab').css('display','none');
+				$('.main').css('margin','auto');
 			}
 			</script>";
 		}
@@ -40,8 +40,18 @@
 			wp_list_pages(array(
 				'title_li' => '',
 				'child_of' => $post->ID,
-				'depth'    => 1
-			));}
+				'depth'    => 1				
+			));
+			
+				echo "<script type='text/javascript;>
+			window.onload=function(){
+				$('.matlab').css('display','none');
+							
+			}
+			</script>";
+			
+			
+			}
 			else{ //main page has no subpage
 				//echo "has no children !";
 				//$post->ID=$post->post_parent;

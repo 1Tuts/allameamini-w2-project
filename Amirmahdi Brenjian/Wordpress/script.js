@@ -1,17 +1,65 @@
 window.onload=function(){
 	var x=0;
+	var z=0;
 	
 	var disp=function(){
 		//$('.matlab').css('display','none');
 		document.getElementsByClassName('matlab').item(0).style.backgroundColor='red';
 	};
+	var y=$('.scroll').height()-350;
 	
-	if ($('.scroll').height() > 280){
-		
+	
+	
+	
+	if ($('.scroll').height() <= 280){
+		$('.arrow').css('display','none');
 	}
 	
 	
 	
+	
+	$('.uparr').click(function(){
+		if(x!=0){
+			x=x+250;
+			$('.scroll').animate({"top" : x+"px"}, "slow");
+		}
+		
+	});
+	
+	
+	
+	
+		
+	
+	$('.botarr').click(function(){
+		if((x*-1)<y){
+			x=x-250;
+			$('.scroll').animate({"top": x+"px"}, "slow");
+		}
+	});
+	
+	
+	$('.botarr2').css('margin-top',$('.matlab').height()-50+'px');
+	
+	
+	
+	
+	$('.botarr2').click(function(){
+		if((z*-1)<$('.scroll2').height()-200){
+			z=z-40;
+			$('.scroll2').animate({"top": z+"px"}, "slow");	
+		}
+		
+	});
+	
+	$('.uparr2').click(function(){
+		if(z!=0){
+			z=z+40;
+			$('.scroll2').animate({"top": z+"px"}, "slow");	
+		}
+		
+		
+	});
 	
 	
 	
@@ -76,7 +124,7 @@ window.onload=function(){
 	}
 	
 	
-	
+	/*
 	if(x==-840) {
 			$('.down').animate({'opacity':0.5},100);
 	}
@@ -108,5 +156,65 @@ window.onload=function(){
 		},500)
 	});
 	
+*/
+
+
+
+
+
+
+
+
+
+
+
+//-------------------------------------contact
+
+var myform = document.forms.item(0);
+		
+		myform.onsubmit = function(){
+			
+			var ret = true;
+			
+			for(var i=0;i<myform.elements.length;i++){
+				if(myform.elements.item(i).className!='ok'){
+					ret = false;
+					break;
+				}
+			}
+			
+			return ret;
+		}
+		
+		for (var i=0;i<myform.elements.length;i++){
+			
+			var inp = myform.elements.item(i);
+			
+			if (inp.type!='text' && inp.type!='textarea'){
+				continue;
+			}
+			
+			inp.onfocus = function(){
+				if (this.value == this.defaultValue){
+					this.value = '';
+				}
+			}
+	
+			inp.onblur = function(){
+				
+				if (this.value!=''){
+					this.className='ok';
+				}else{
+					this.className='nok'
+				}
+				
+				if (this.value == ''){
+					this.value = this.defaultValue;
+				}
+				
+			}
+		}
+
+
 
 }
