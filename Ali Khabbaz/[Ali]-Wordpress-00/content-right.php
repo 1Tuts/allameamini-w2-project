@@ -46,7 +46,7 @@
 				echo "<script type='text/javascript;>
 			window.onload=function(){
 				$('.matlab').css('display','none');
-				$('.main').css('margin','auto');			
+							
 			}
 			</script>";
 			
