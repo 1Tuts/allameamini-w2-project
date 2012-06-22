@@ -4,7 +4,9 @@
 	<div class="main">
 		<div class="left">
 			<div class="top"></div>
-			<div class="center"></div>
+			<div class="center">
+				<img src="<?php bloginfo('template_url'); ?>/images/4.jpg"/>
+			</div>
 			<div class="bottom">
 				<?php	get_template_part('menu');   ?>
 			</div>
