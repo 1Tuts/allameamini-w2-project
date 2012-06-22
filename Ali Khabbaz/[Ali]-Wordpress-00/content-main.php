@@ -5,7 +5,7 @@
 ?>
 <article class='post'>
 	
-	<b><?php the_title(); ?></b>
+	<h2><?php the_title(); ?></h2>
 	<p>
 		<?php echo $post->post_content;
 			echo"<!--";
