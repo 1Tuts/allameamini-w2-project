@@ -1,6 +1,8 @@
 window.onload=function(){
 	var x=0;
 	var z=0;
+	var w=0;
+	var key=0;
 	
 	var disp=function(){
 		//$('.matlab').css('display','none');
@@ -60,6 +62,26 @@ window.onload=function(){
 		
 		
 	});
+	
+	
+	setInterval(move,2);
+	
+	function move(){
+		$('.center img').animate({"top": w+"px"}, 100);
+		
+		if((w*-1)>=200 & key==0){
+			key=1;
+		}
+		if((w*-1)<=0 & key==1){
+			key=0;
+		}
+		if(key==0){
+			w=w-2;
+		}
+		if(key==1){
+			w=w+2;
+		}
+	}
 	
 	
 	
