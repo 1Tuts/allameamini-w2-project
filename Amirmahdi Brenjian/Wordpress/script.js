@@ -1,7 +1,8 @@
 window.onload=function(){
 	var x=0;
 	var z=0;
-	var i=0;
+	var w=0;
+	var key=0;
 	
 	var disp=function(){
 		//$('.matlab').css('display','none');
@@ -61,17 +62,30 @@ window.onload=function(){
 		
 		
 	});
-
-	function rnd(a,b){
-		return Math.floor(Math.random()*(b-a+1))+a;	
-	}
-	var image= function(){
-		document.getElementsByClassName('autoimage').item(0).style.backgroundPosition=rnd(0,433),rnd(0,133);
-	};
 	
-	setInterval(image,2000);
 	
+	setInterval(move,2);
+	
+	function move(){
+		$('.center img').animate({"top": w+"px"}, 100);
 		
+		if((w*-1)>=200 & key==0){
+			key=1;
+		}
+		if((w*-1)<=0 & key==1){
+			key=0;
+		}
+		if(key==0){
+			w=w-2;
+		}
+		if(key==1){
+			w=w+2;
+		}
+	}
+	
+	
+	
+	
 
 	/*$('.l1').click(function(){
 		$('.train').animate({
