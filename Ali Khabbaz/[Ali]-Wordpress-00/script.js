@@ -1,12 +1,13 @@
 window.onload=function(){
 	var x=0;
+	var z=0;
 	
 	var disp=function(){
 		//$('.matlab').css('display','none');
 		document.getElementsByClassName('matlab').item(0).style.backgroundColor='red';
 	};
 	var y=$('.scroll').height()-350;
-	y=-1*y;
+	
 	
 	
 	
@@ -15,17 +16,13 @@ window.onload=function(){
 	}
 	
 	
-	if(x==0){
-			$('.uparr').animate({'opacity':0},100);
-	}
+	
 	
 	$('.uparr').click(function(){
-		$('.botarr').animate({'opacity':1},100);
-		x=x+250;
-		$('.scroll').animate({"top" : x+"px"}, "slow");
-		if(x==0){
-			$('.uparr').animate({'opacity':0},100);
-		}	
+		if(x!=0){
+			x=x+250;
+			$('.scroll').animate({"top" : x+"px"}, "slow");
+		}
 		
 	});
 	
@@ -35,20 +32,34 @@ window.onload=function(){
 		
 	
 	$('.botarr').click(function(){
-		$('.uparr').animate({'opacity':1},100);
-		x=x-250;
-		$('.scroll').animate({"top": x+"px"}, "slow");	
-		
-		if(x==y){
-			$('.botarr').animate({'opacity':0},100);
-			
-		}	
+		if((x*-1)<y){
+			x=x-250;
+			$('.scroll').animate({"top": x+"px"}, "slow");
+		}
 	});
 	
 	
+	$('.botarr2').css('margin-top',$('.matlab').height()-50+'px');
 	
 	
 	
+	
+	$('.botarr2').click(function(){
+		if((z*-1)<$('.scroll2').height()-200){
+			z=z-40;
+			$('.scroll2').animate({"top": z+"px"}, "slow");	
+		}
+		
+	});
+	
+	$('.uparr2').click(function(){
+		if(z!=0){
+			z=z+40;
+			$('.scroll2').animate({"top": z+"px"}, "slow");	
+		}
+		
+		
+	});
 	
 	
 	
