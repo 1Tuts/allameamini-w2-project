@@ -1,3 +1,19 @@
+@font-face{
+	font-family: iran;
+	src: url('iran.ttf');
+}
+
+@font-face{
+	font-family: lotus;
+	src: url('lotus.ttf');
+}
+
+@font-face{
+	font-family: titr;
+	src: url('titr.ttf');
+}
+
+
 body{
 	margin:0;
 	padding:0;
@@ -42,6 +58,23 @@ div.matlab{
 	background-color:#CCC;
 	text-align:right;
 	padding:20px;
+	background-image:url(images/flower.png);
+	font-size:18px;
+	border-radius:10px;
+	box-shadow: 7px 7px 5px #000;
+	-webkit-box-shadow: 6px 6px 5px #000;
+	background-color:#444;
+	color:#ccc;
+}
+
+p{
+	margin-bottom:10px;
+	font-family:"titr";
+}
+h2{
+	margin-bottom:20px;
+	font-size:34px;	
+	font-family:"titr";
 }
 
 div.matlab .content{
@@ -102,11 +135,21 @@ div.arrow2 .botarr2{
 	color:white;
 	text-align:center;
 	font-weight:100;
+	background-image:url(images/Untitled-2.png);
+	background-repeat:no-repeat;
+	background-position:center;
 }
 .main .left .center{
 	width:inherit;
-	min-height:133px;
+	height:133px;
 	background-image:url(images/center.png);
+	position:relative;
+	overflow:hidden;
+}
+.main .left .center img{
+	position:absolute;
+	left:0;
+	top:0;	
 }
 .main .left .bottom{
 	width:inherit;
@@ -169,7 +212,7 @@ div.arrow{
 	margin-top:40px;
 }
 div.submenu{
-	margin-left:100px;
+	margin-left:90px;
 	width:350px;
 	height:280px;
 	margin-top:40px;
@@ -282,7 +325,7 @@ div.formstyle input[type=text].nok{
 }
 
 div.formstyle textarea{
-	width:340px;
+	width:330px;
 	min-height:170px;
 	color:#666;
 	margin:5px;
