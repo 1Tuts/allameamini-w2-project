@@ -63,6 +63,7 @@ div.matlab{
 	-webkit-box-shadow: 6px 6px 5px #000;
 	background-color:#444;
 	color:#ccc;
+	font-family:"titr";
 }
 
 p{
@@ -78,8 +79,15 @@ h3{
 	margin-top:750px;
 	margin-left:685px;
 	font-size:14px;
-	color:#999;	
+	color:#999;
+	font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
+p.main{
+	font-family:"iran";
+	font-size:27px;
+	color:#666;
+	text-align:center;
+	}
 div.matlab .content{
 	margin-left:50px;	
 	overflow:hidden;

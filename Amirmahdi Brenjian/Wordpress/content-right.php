@@ -17,7 +17,7 @@
 		}
 		
 		if($post->ID==39){
-			get_template_part('home');
+			get_template_part('about');
 			echo "<script type='text/javascript;>
 			window.onload=function(){
 				$('.matlab').css('display','none');
