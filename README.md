@@ -1,4 +1,4 @@
-##Allame Amini wesite
+##Allame Amini website
 
 Our web project is a website that is about allameh amini.
 We try to introduce allameh amini to the people because he was one of the best authors in the world.
